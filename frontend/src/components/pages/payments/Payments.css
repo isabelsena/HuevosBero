@@ -1,0 +1,100 @@
+.container-producto{
+    background: white;
+        width: 100%;
+        height: 797px;
+        
+    }
+    .contenedor-pagos{
+        
+        width: 100%;
+        height: 400px;
+    }
+    .contenedor{
+        height: 306px;
+        padding: 10px;
+        width: 100%;
+        
+    }
+    h1{
+        color: black;
+        font-size: 20px;
+        text-align: center;
+        margin-top: 15px;
+        position: absolute;
+        margin-left: 40%;
+    }
+    .pafo1{
+        color: black;
+        font-size: 17px;
+        margin-top: 20px;
+        margin-top: 88px;
+        position: absolute;
+        margin-left: 5%;
+    }
+    .bot-enviar{
+    font-size: 19px;
+    background: #5463FF;
+    width: 100px;
+    height: 31px;
+    border-radius:  75px;
+    border-radius: 6px;
+       
+
+    }
+    .bot-enviar:hover{
+        cursor: pointer;
+    }
+    .logo-tarjeta{
+        width: 183px;
+        height: 183px;
+        margin-left: 83%;
+        margin-top: -2%;
+        position: absolute;
+    }
+    .iconos-tarjetas{
+        width:436px;
+        width: 35%;
+        margin-top: -38px;
+        height: 170px;
+        margin-left: 3px;
+        margin-bottom: 16px;
+        position: absolute;
+        margin-top: 10%;
+    }
+    .form1{
+        font-size: 20px;
+        margin-left: -220px;
+        position: absolute;
+      
+    }
+    .input-form{
+        
+        width: 427px;
+        height: 37px;
+        border-radius: 11px;
+        margin-left: 30px;
+
+    }
+    .input-form:hover{
+     cursor: pointer;
+    }
+    .pafo1{
+        font-size: 15px;
+        line-height: 28px;
+    }
+    .pafo1,
+    .form1,
+     .input-form{
+        color:black;
+        
+    }
+    .formulario{
+        display: flex;
+         align-items: center;  
+         display:inline-block;
+         flex-wrap: wrap;
+         margin-top: 4%;
+         margin-left: 21%;
+    
+    }
+    

@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+   background: white; 
+   color: black;
+   font-family: 'Roboto', sans-serif;
+
+   
+}
+.container{
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1.5em;
+    background: #17202a ;
+    margin-top: 28px;
+}
+
+
+.container-wrapper{
+    box-shadow: 0 0 20px 0 rgba(255, 255, 255, .3);
+}
+.container-wrapper > *{
+    padding: 1em;
+}
+.container-form{
+    background: white; 
+}
+.container-info{
+    background:  #17202a ;
+    color: black;
+
+}
+.container-form form{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.container-form form .block{
+    grid-column: 1/-1;
+}
+.container-form form p{
+    margin: 0;
+    padding: 1em;
+    color: black;
+}
+.container-form form .enviar,
+.container-form form input,
+.container-form form textarea {
+    width: 100%;
+     padding: 1.7em; 
+     border: none;
+     background: none;
+     border-bottom: 1px solid  #17202a ;
+     outline: 0;
+     color: white;
+}
+.container-form form .enviar{
+    background: #5463FF;
+    border: 0;
+    padding: 1em;
+    color: black;
+    border-radius: 8px;
+}
+.container-form form .enviar:hover,
+.container-form form .enviar:focus{
+    background: #5463FF;
+    color: black;
+    transition: background-color 1s ease-out;
+    outline: 0;
+    cursor: pointer;
+} 
+.container-info h4,
+.contact-info ul,
+.container-info p{
+    text-align: center;
+    margin: 0 0 1rem 0;
+
+}
+.container-info ul{
+    list-style: none;
+    padding: 0;
+}
+.container-info ul li{
+    padding: .3em;
+}

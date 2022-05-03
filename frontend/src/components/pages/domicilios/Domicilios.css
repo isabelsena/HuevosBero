@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: 888px;
+    background: white;
+    margin-top: 0px;
+  
+}
+.Titulo-domicilio{
+    text-align: center;
+    font-size: 23px;
+    margin-top: 6px;
+    position: absolute;
+    margin-left: -20%;
+
+}
+.p-domicilio{
+    color:black;
+    font-size: 22px;
+    margin-top: 46px;
+    margin-left: 12px;
+  }
+
+.info-Domicilio{
+    background: #AAA;
+    border-radius: 18px;
+    opacity: 1;
+    width: 100%;
+    height: 65px;
+    margin-top: 86px;
+    
+}
+.img-gps{
+    width: 32px;
+    height: 32px;
+    margin-top: 17px;
+    margin-left: 46px;
+    position: absolute;
+  
+}
+.numero-dire{
+    font-size: 20px;
+    margin-left: 166px;
+    margin-top: -55px;
+  
+}
+.direccion1{
+    font-size: 17px;
+    margin-left: 166px;
+    margin-top: -15px;
+   
+}
+.direcion{
+    font-size: 20px;
+    margin-left: 914px;
+    margin-top: -60px;
+  
+}
+.detalle-compra{
+    color: black;
+    margin-top: 91px;
+    margin-left: 5px;
+    position: absolute;
+  
+}
+.img-circulo{
+    height: 23px;
+    margin-top: 21px;
+    margin-left: 50px;
+    width: 32px;
+}
+.detalle-delpedido{
+    background: #AAA;
+    border-radius: 18px;
+    opacity: 1;
+    width: 100%;
+    height: 65px;
+    margin-top: 15%;
+}
+.dettalles-pedido{
+    font-size: 20px;
+    margin-left: 128px;
+    margin-top: -37px;
+}
+.gratis{
+    font-size: 20px;
+    margin-left: 1006px;
+    margin-top: -48px;
+    color: green;
+}
+.beneficiomercadopuntos{
+    font-size: 20px;
+    color: black;
+    margin-left: 0%;
+    margin-top: 17px;
+  
+}
+.continuar{
+background: #5463FF;
+margin-left: 45%;
+width: 140px;
+height: 50px;
+border-radius: 11px;
+color: white;
+font-size: 17px;
+margin-top: 90px;
+}
+.continuar:hover{
+    cursor: pointer;
+    
+}
